@@ -1,0 +1,215 @@
+body{
+	background-color: #DCDCDC;
+	font-family: 'Roboto', sans-serif;
+}
+.rojito{
+	color: #FF4C4C;
+}
+
+/*FOTO*/
+img{
+	width: 20%;
+	left: 320px;
+}
+.fotito2{
+ 	border-radius: 100%;
+ 	border: 8px solid #DCDCDC;
+ }
+ .fotito{
+ 	text-align: center;
+ 	position: relative;
+ 	bottom:100px;
+ }
+
+/*BORDE GRIS*/
+.container{
+	background-color: #ffffff;
+	width: 70%;
+	margin: auto;
+	margin-top:100px;
+	margin-bottom: 100px;
+	border: 1px solid #CDCDCD;
+	padding: 30px;
+	font-size: 0.9rem;
+	clear: both;
+}
+
+/*TITULO*/
+.titulo-1{
+ 	text-align: center;
+  	padding-bottom: 30px;
+ 	border-bottom: 3px double #DCDCDC;
+ }
+
+/*SKILLS*/
+.barra-python{
+	list-style-type: none;
+	background-color: #FF4C4C;
+	color: white;
+	width: 90%;
+	margin: 3px;
+	padding-left: 3px;
+}
+.barra-HTML{
+	list-style-type: none;
+	background-color: #FF4C4C;
+	color: white;
+	width: 75%;
+	margin: 3px;
+	padding-left: 3px;
+}
+.barra-CSS{
+	list-style-type: none;
+	background-color: #FF4C4C;
+	color: white;
+	width: 60%;
+	margin: 3px;
+	padding-left: 3px;
+}
+.barra-JS{
+	list-style-type: none;
+	background-color: #FF4C4C;
+	color: white;
+	width: 45%;
+	margin: 3px;
+	padding-left: 3px;
+}
+.barra-PHP{
+	list-style-type: none;
+	background-color: #FF4C4C;
+	color: white;
+	width: 30%;
+	margin: 3px;
+	padding-left: 3px;
+}
+
+/*EDUCACION*/
+.borde-educ{
+	background-color: #e5e5e5;
+	padding: 5px;
+}
+
+/*HOBBIES*/
+.hobbies{
+	background-color: #FF4C4C;
+	color: white;
+	float: left;
+	margin: 5px;
+	padding: 5px;
+}
+
+/*IDIOMAS*/
+.estrella-roja{
+	height: 20px;
+	width: 20px;
+	float: left;
+	color: red;
+	float: right;
+	top: 10px;
+}
+.estrella-gris{
+	height: 20px;
+	width: 20px;
+	color: red;
+	color: grey;
+	float: right;
+}
+
+/*PIE DE PAGINA*/
+.pie{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.alineado {
+	border-top: 1px solid #CDCDCD;
+	padding: 10px;
+	text-align: right;
+}
+
+/*MEDIA QUERIES*/
+.row{
+	padding-left: 30px;
+	clear: both;
+	box-sizing: border-box;
+}
+.col-cel-1, .col-cel-2, .col-cel-3, .col-cel-4, .col-cel-5, .col-cel-6, .col-cel-7, .col-cel-8,.col-cel-9, .col-cel-10, .col-cel-11, .col-cel-12{
+	float: left;
+}
+
+@media (min-width: 480px){
+	.col-cel-1{
+		width: 8.33333333%;
+	}
+	.col-cel-2{
+		width: 16.66666667%;
+	}
+	.col-cel-3{
+		width: 25%;
+	}
+	.col-cel-4{
+		width: 33.33333333%;
+	}
+	.col-cel-5{
+		width: 41.66666667%;
+	}
+	.col-cel-6{
+		width: 50%;
+	}
+	.col-cel-7{
+		width: 58.33333333%;
+	}
+	.col-cel-8{
+		width: 66.66666667%;
+	}
+	.col-cel-9{
+		width: 75%;
+	}
+	.col-cel-10{
+		width: 83.33333333%;
+	}
+	.col-cel-11{
+		width: 91.66666667%;
+	}
+	.col-cel-12{
+		width: 100%;
+	}
+}
+
+@media (min-width: 481px){
+	.col-pc-1{
+		width: 8.33333333%;
+	}
+	.col-pc-2{
+		width: 16.66666667%;
+	}
+	.col-pc-3{
+		width: 25%;
+	}
+	.col-pc-4{
+		width: 33.33333333%;
+	}
+	.col-pc-5{
+		width: 41.66666667%;
+	}
+	.col-pc-6{
+		width: 50%;
+	}
+	.col-pc-7{
+		width: 58.33333333%;
+	}
+	.col-pc-8{
+		width: 66.66666667%;
+	}
+	.col-pc-9{
+		width: 75%;
+	}
+	.col-pc-10{
+		width: 83.33333333%;
+	}
+	.col-pc-11{
+		width: 91.66666667%;
+	}
+	.col-pc-12{
+		width: 100%;
+	}
+}
